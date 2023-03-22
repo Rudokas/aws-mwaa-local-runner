@@ -1,4 +1,17 @@
---constraint "https://raw.githubusercontent.com/apache/airflow/constraints-2.4.3/constraints-3.10.txt"
+apache-airflow==2.4.3 --constraint "https://raw.githubusercontent.com/apache/airflow/constraints-2.4.3/constraints-3.10.txt"
 
+--index-url https://dev:o-ULJqa9FMwUGxiELW3wyLmew6f._6BFaKEa4FHXKu.oYR*x496C2.-WreK@WGV2@pypi.carvertical.net/carvertical/stable/+simple/
+data-common==2022.10.27.1237
+pymongo==3.13.0
+mongoengine==0.26.0
+pycryptodomex==3.15.0
+rsa==4.9
+paramiko==2.12.0
+aenum==3.1.11
+lxml==4.9.1
+smart-open==6.3.0
+marshmallow==3.18.0
+requests==2.28.1
 apache-airflow-providers-snowflake==3.3.0
 apache-airflow-providers-mysql==3.2.1
+apache-airflow-providers-amazon==6.0.0
